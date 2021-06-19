@@ -18,7 +18,7 @@ class CreateDaftarMandiriTable extends Migration
             $table->string('nama_pasien', 100);
             $table->string('nama_dokter', 100);
             $table->string('nama_poli', 100);
-            $table->date('tanggal_lahir');;
+            $table->date('tanggal_lahir');
           
         });
     }
